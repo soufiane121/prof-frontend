@@ -11,8 +11,7 @@ const About=()=>{
         Equally as comfortable diving deep into technology as I am client-facing or working with teammates. 
         Possess a strong people-first orientation with a commitment to professional ethics.
         Most recently I’ve been working on a project I wanted to implement for a long time by using and learning React Native. I enjoy playing soccer with my dog and when I first moved to the United States it was very hard for me to find people and places to play. Flatiron School gives me the opportunity to make people’s ideas became true,
-         since coding for me is a way to create beautiful powerful things and share them with the world.<br />
-
+         since coding for me is a way to create beautiful powerful things and share them with the world.
          Skills/Interests: JavaScript, React, Redux, HTML, CSS, Ruby, Ruby on Rails, PostgreSQL, Git, React Native
     </p>
     </div>

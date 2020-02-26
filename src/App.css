@@ -6,6 +6,7 @@
   background-color: rgba(233, 142, 57, 0.699) !important;
   opacity: 0.8;
   color: rgb(201, 201, 201);
+
 }
 .btn{
   color: aliceblue !important;
@@ -172,12 +173,12 @@ transform: translateX(0px);
 }
 }
 
-
 .image {
   /* margin: 38px 10px; */
   margin-top: 70px;
   margin-left: 10px;
-  margin-right: 7px;
+  margin-right: 20px;
+  margin-bottom: 1.4px;
   padding: 2vh;
   float: left;
   border: grey solid 1px;
