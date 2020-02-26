@@ -4,7 +4,8 @@ import Nav from 'react-bootstrap/Nav'
 
 const Navv=(props)=>{  
     return (
-    <Navbar bg='info'  expand="lg" sticky="top"  className="all">
+
+     <Navbar bg='info'  expand="lg" sticky="top"  className="all">
         <Navbar.Brand className="logo" onClick={props.handleLogo}>Soufiane Oucherrou</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="btn"/>
         <Navbar.Collapse id="basic-navbar-nav">

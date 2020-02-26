@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import 'react-toastify/dist/ReactToastify.css';
 
-const URL = 'https://profolio-backend.herokuapp.com/'
+const URL = 'https://profolio-backend.herokuapp.com'
 const Contact=(props)=>{
 
 const [fname, setFname] = useState('')
@@ -89,7 +89,7 @@ const [display, setDisplay]= useState(true)
         </Form>   
         : 
         <div className="msgForm"> 
-            <p>Thank you! we will be in touch with you soon </p>
+            <p>Thank you! I will be in touch with you soon </p>
         </div>
     }
         </div>
