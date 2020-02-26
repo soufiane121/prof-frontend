@@ -3,12 +3,20 @@ import './App.css';
 import Navv from './components/Navv';
 import Switching from './Container/Switching';
 
+let URL = 'https://profolio-backend.herokuapp.com'
+
 class App extends React.Component {
 state={
   disp: true,
 }
 
+
+
  componentDidMount=()=>{
+  fetch(`${URL}/guests`)
+  .then(resp=> resp.json())
+  
+
   if (this.props.history.location.pathname === "/") {
   this.setState({disp: true})
   } else if (this.props.history.location.pathname === "/about") {
